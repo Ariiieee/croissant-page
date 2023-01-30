@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+	margin: 100px 0;
+}
+
+.title {
+	margin-bottom: 24px;
+}
+
+.description {
+	margin-bottom: 10px;
+}
+
+.link-list {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+.croissant-img {
+	max-width: 100%;
+	margin-bottom: 32px;
+	width: 700px;
+	border-radius: 10px;
+}
